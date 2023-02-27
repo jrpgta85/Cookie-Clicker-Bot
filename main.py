@@ -17,6 +17,7 @@ driver = webdriver.Chrome(options=chrome_options, service=ser)
 action = ActionChains(driver)
 driver.get(URL)
 
+#
 # 1. get cookie to click
 # 2. Setup timer for exit game
 # 3. Get list of product elements, total 19 products, 0 - 18 "id=product{n}"
