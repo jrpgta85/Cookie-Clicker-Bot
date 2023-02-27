@@ -9,6 +9,8 @@ chrome_options = Options()
 chrome_options.add_experimental_option("detach", True)
 
 URL = "https://orteil.dashnet.org/cookieclicker/"
+# Modify this line to reflect the path needed for your chromedriver.exe
+# the chromedriver.exe version must match the Chrome browser version
 chrome_driver_path = r"C:\Users\jrpgt\Documents\Development\chromedriver.exe"
 
 ser = Service(chrome_driver_path)
